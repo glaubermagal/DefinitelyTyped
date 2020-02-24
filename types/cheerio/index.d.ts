@@ -236,6 +236,8 @@ interface CheerioOptionsInterface {
     recognizeSelfClosing?: boolean;
     normalizeWhitespace?: boolean;
     ignoreWhitespace?: boolean;
+    withStartIndices?: boolean;
+    withEndIndices?: boolean;
 }
 
 interface CheerioSelector {
